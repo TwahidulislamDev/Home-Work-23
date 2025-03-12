@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet"type="text/css"/>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="navbar w-[1320px] m-auto py-[25px]">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <a class="">
+          <img src="./images/headerImg.png" alt="" />
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li class="px-3">
+            <details>
+              <summary class="text-xl font-semibold">Home</summary>
+              <ul class="menu bg-base-200 rounded-box w-56">
+                <li><a>Home 01</a></li>
+                <li><a>Home 02</a></li>
+                <li><a>Home 03</a></li>
+              </ul>
+            </details>
+          </li>
+          <li class="px-3">
+            <details>
+              <summary class="text-xl font-semibold">Page</summary>
+              <ul class="menu bg-base-200 rounded-box w-56">
+                <li><a>Team </a></li>
+                <li><a>Team Details</a></li>
+                <li><a>Shop</a></li>
+                <li><a>Shop Details</a></li>
+                <li><a>Shop Cart</a></li>
+              </ul>
+            </details>
+          </li>
+          <li class="px-3">
+            <details>
+              <summary class="text-xl font-semibold">Service</summary>
+              <ul class="menu bg-base-200 rounded-box w-56">
+                <li><a>Service Page</a></li>
+                <li><a>Service Details</a></li>
+              </ul>
+            </details>
+          </li>
+          <li class="px-3">
+            <details>
+              <summary class="text-xl font-semibold">Project</summary>
+              <ul class="menu bg-base-200 rounded-box w-56">
+                <li><a>Project</a></li>
+                <li><a>Project Details</a></li>
+              </ul>
+            </details>
+          </li>
+          <li class="px-3">
+            <details>
+              <summary class="text-xl font-semibold">Blog</summary>
+              <ul class="menu bg-base-200 rounded-box w-56">
+                <li><a>Blog Grid</a></li>
+                <li><a>Blog Details</a></li>
+              </ul>
+            </details>
+          </li>
+          <li class="px-3 text-xl font-semibold"><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a
+          class="py-[13px] px-[25px] bg-[#FF7000] rounded-lg text-sm font-semibold text-white"
+          >DONATE NOW</a
+        >
+      </div>
+    </div>
+
+ 
+  </body>
+</html>
